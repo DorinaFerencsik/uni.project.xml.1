@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nyilvantartas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="biciklisnyilvantarto.xsd">
+    
+<verzio verzioszam="1.1"/>    
+     
+<kerekparok>
+    <kerekpar tulaj="bb1">
+        <tipus>varosi</tipus>
+        <kerekMeret>26</kerekMeret>
+        <fek>tarcsa</fek>
+    </kerekpar>
+    <kerekpar tulaj="bb2">
+        <tipus>orszaguti</tipus>
+        <kerekMeret>26</kerekMeret>
+        <fek>v</fek>
+    </kerekpar>
+</kerekparok>
+    
+<biciklisek>
+    <biciklis biciklisId="bb1">
+        <nev>
+            <vezetek>Példa</vezetek>
+            <kereszt>Dorina</kereszt>
+        </nev>
+        <eletkor>21</eletkor>
+        <lakcim>
+            <varos>Miskolc</varos>
+            <utca>Egyetemváros</utca>
+            <hazszam>1</hazszam>
+        </lakcim>
+    </biciklis>
+    <biciklis biciklisId="bb2">
+        <nev>
+            <vezetek>Példa</vezetek>
+            <kereszt>Bence</kereszt>
+        </nev>
+        <eletkor>23</eletkor>
+        <lakcim>
+            <varos>Miskolc</varos>
+            <utca>Egyetemváros</utca>
+            <hazszam>1</hazszam>
+        </lakcim>
+    </biciklis>
+</biciklisek>
+    
+<utvonalak>
+    <utvonal utId="uu1" sportolo="bb1">  
+        <tav mertekegyseg="km">10</tav> 
+        <idotartam>00:35:20</idotartam>
+        <leiras>Csak egy kisebb biciklizes</leiras>
+    </utvonal>
+    <utvonal utId="uu2" sportolo="bb2">  
+        <tav mertekegyseg="km">20</tav> 
+        <idotartam>01:40:15</idotartam>
+        <leiras>Nagyobb tura</leiras>
+        <leiras>Faraszto</leiras>
+    </utvonal>
+</utvonalak>   
+</nyilvantartas>
